@@ -39,5 +39,5 @@ jobs:
           password: ${{ secrets.CPANEL_FTP_PASSWORD }}
           protocol: ftp
           port: 21
-          local-dir: dist
-          server-dir: /admin_varnarc
+          local-dir: dist/
+          server-dir: /admin_varnarc/
