@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    /* File Layout */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Module + Target (Vite requires ES modules) */
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "bundler",
+
+    /* Type Definitions */
+    "types": ["react", "react-dom"],
+
+    /* Output Options */
+    "sourceMap": true,
+    "declaration": false,
+    "declarationMap": false,
+
+    /* Type Safety */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+
+    /* JSX */
+    "jsx": "react-jsx",
+
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
